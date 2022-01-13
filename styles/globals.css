@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap");
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.alt-font {
+  font-family: "Just Me Again Down Here", cursive;
+}
+pre {
+  background: #f6f6f6;
+  padding: 1em !important;
+  margin: 1em !important;
+}
+
+iframe {
+  height: 400px;
+  margin: 1em 0 1em 0;
+}
+img {
+  width: 50%;
 }
